@@ -17,7 +17,7 @@ class Book {
 
     // Methods
     public function getFullInfo() {
-        $fullInfo = $this->author . '<br>' . $this->title . '<br>' . $this->editor . '<br>' . $this->price . '€';
+        $fullInfo = $this->author . '<br>' . '<strong>' . $this->title . '</strong>' . '<br>' . $this->editor . '<br>' . $this->price . '€';
         return $fullInfo;
     }
 
